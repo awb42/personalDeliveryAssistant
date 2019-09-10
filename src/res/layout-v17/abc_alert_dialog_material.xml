@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+	<LinearLayout android:orientation="1" android:id="false" android:layout_width="-1" android:layout_height="-2">
+		<LinearLayout android:gravity="0x10" android:orientation="0" android:id="false" android:paddingLeft="{2:2130772097}" android:paddingTop="18dp" android:paddingRight="{2:2130772097}" android:layout_width="-1" android:layout_height="-2">
+			<ImageView android:id="resourceId:0x1020006" android:layout_width="32dp" android:layout_height="32dp" android:src="resourceId:0x0" android:scaleType="3" style="@style/RtlOverlay.Widget.AppCompat.DialogTitle.Icon" />
+			<android.support.v7.widget.DialogTitle android:ellipsize="3" android:id="false" android:layout_width="-1" android:layout_height="-2" android:singleLine="true" android:textAlignment="5" style="?attr/android:windowTitleStyle" />
+		</LinearLayout>
+	</LinearLayout>
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp" android:layout_weight="{4:1065353216}">
+		<View android:layout_gravity="0x30" android:id="false" android:background="{2:2130772141}" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" />
+		<android.support.v4.widget.NestedScrollView android:id="false" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-2">
+			<LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+				<TextView android:id="resourceId:0x102000b" android:paddingLeft="{2:2130772097}" android:paddingTop="18dp" android:paddingRight="{2:2130772097}" android:layout_width="-1" android:layout_height="-2" style="@style/TextAppearance.AppCompat.Subhead" />
+				<View android:id="false" android:visibility="2" android:layout_width="0dp" android:layout_height="18dp" />
+			</LinearLayout>
+		</android.support.v4.widget.NestedScrollView>
+		<View android:layout_gravity="0x50" android:id="false" android:background="{2:2130772141}" android:visibility="2" android:layout_width="-1" android:layout_height="1dp" />
+	</FrameLayout>
+	<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" android:minHeight="48dp" android:layout_weight="{4:1065353216}">
+		<FrameLayout android:id="false" android:layout_width="-1" android:layout_height="-2" />
+	</FrameLayout>
+	<include layout="@layout/abc_alert_dialog_button_bar_material" />
+</LinearLayout>

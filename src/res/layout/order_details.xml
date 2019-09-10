@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:orientation="1" android:id="false" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="-1" android:layout_height="-2">
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Name" android:ems="8" android:layout_alignLeft="false" android:layout_alignParentTop="true" android:inputType="0x61" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Contact Number" android:ems="8" android:layout_below="false" android:layout_alignParentRight="true" android:inputType="0x3" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Contact Address" android:ems="8" android:layout_below="false" android:layout_alignParentRight="true" android:inputType="0x71" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Order Total" android:ems="8" android:layout_below="false" android:layout_alignParentRight="true" android:inputType="0x2002" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Amount Received" android:ems="8" android:layout_below="false" android:layout_alignParentRight="true" android:inputType="0x2002" />
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Tip" android:ems="8" android:layout_below="false" android:layout_alignParentRight="true" android:inputType="0x2002" />
+		<LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Mileage" android:ems="8" android:layout_weight="{4:1056964608}" android:layout_below="false" android:layout_alignParentRight="true" android:inputType="0x2002" />
+			<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Miles (optional)" android:ems="8" android:layout_weight="{4:1056964608}" android:layout_below="false" android:layout_alignParentRight="true" android:inputType="0x2002" />
+		</LinearLayout>
+		<EditText android:id="false" android:layout_width="-1" android:layout_height="-2" android:hint="Grand Total" android:ems="8" android:layout_below="false" android:layout_alignParentRight="true" android:inputType="0x2002" />
+	</LinearLayout>
+	<LinearLayout android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2">
+		<Button android:id="false" android:layout_width="125dp" android:layout_height="50dp" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:text="Save" android:onClick="onClick" />
+		<Button android:layout_width="125dp" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:text="Route" android:onClick="sendMessage" />
+	</LinearLayout>
+</LinearLayout>

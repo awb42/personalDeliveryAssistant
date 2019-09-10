@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-2">
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Name: " />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Dawn of the planet" android:layout_alignLeft="false" android:layout_centerHorizontal="true" />
+	<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Del" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Phone Number: " android:layout_below="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="9999999999" android:layout_below="false" android:layout_centerHorizontal="true" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Address: " android:layout_below="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="address" android:layout_below="false" android:layout_alignLeft="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Order Total: " android:layout_below="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="orderTotal" android:layout_below="false" android:layout_alignLeft="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Amount Received: " android:layout_below="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="amountReceived" android:layout_below="false" android:layout_alignLeft="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Tip: " android:layout_below="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="tip" android:layout_below="false" android:layout_alignLeft="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="70dp" android:layout_toRightOf="false" android:layout_below="false" android:layout_alignLeft="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10dp" android:layout_toRightOf="false" android:layout_below="false" android:layout_alignLeft="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Mileage: " android:layout_below="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="mileage" android:layout_below="false" android:layout_alignLeft="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="Grand Total: " android:layout_below="false" />
+	<TextView android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5dp" android:text="grandTotal" android:layout_below="false" android:layout_alignLeft="false" />
+</RelativeLayout>

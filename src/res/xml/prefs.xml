@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="Settings" android:summary="User Settings Information">
+		<EditTextPreference android:title="Rate per delivery" android:key="ratePerDeliveryPref" android:summary="Gas reimbursement paid per run" />
+		<EditTextPreference android:title="Rate per mile" android:key="ratePerMilePref" android:summary="Gas reimbursement paid per mile" />
+	</PreferenceCategory>
+</PreferenceScreen>

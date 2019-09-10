@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.something.boley.personaldeliveryassistant" platformBuildVersionCode="24" platformBuildVersionName="7.0">
+	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="24" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-feature android:name="android.hardware.camera" android:required="false" />
+	<application android:theme="resourceId:0x7f0900fc" android:label="Personal Delivery Assistant" android:icon="res/mipmap-xxxhdpi-v4/ic_pda_launcher.png" android:allowBackup="true" android:supportsRtl="true">
+		<activity android:name="com.something.boley.personaldeliveryassistant.MainActivity">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="com.something.boley.personaldeliveryassistant.display_database" />
+		<activity android:name="com.something.boley.personaldeliveryassistant.OrderDetails" />
+		<activity android:name="com.something.boley.personaldeliveryassistant.MapsMainActivity" />
+		<activity android:name="com.something.boley.personaldeliveryassistant.display_hotels" />
+		<activity android:name="com.something.boley.personaldeliveryassistant.PrefsActivity" />
+		<meta-data android:name="com.android.vending.derived.apk.id" android:value="1" />
+	</application>
+</manifest>

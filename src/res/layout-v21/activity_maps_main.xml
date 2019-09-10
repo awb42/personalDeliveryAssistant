@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+	<TextView android:textSize="30dp" android:layout_gravity="0x11" android:id="false" android:layout_width="-2" android:layout_height="-2" android:text="Add Map" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+	<ImageView android:id="false" android:layout_width="-1" android:layout_height="100dp" android:layout_marginTop="13dp" android:src="resourceId:0x1080037" android:layout_below="false" android:layout_alignParentLeft="true" android:onClick="buttonClicked" android:layout_alignParentStart="true" />
+	<EditText android:gravity="0x11" android:layout_gravity="0x1" android:id="false" android:layout_width="300dp" android:layout_height="50dp" android:hint="Enter hotel or resort name" android:layout_alignBottom="false" android:layout_centerHorizontal="true" android:backgroundTint="resourceId:0x106000f" />
+	<LinearLayout android:gravity="0x11" android:orientation="0" android:id="false" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="49dp" android:layout_below="false" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+	<Button android:id="false" android:background="{2:16843531}" android:layout_width="60dp" android:layout_height="60dp" android:layout_alignParentBottom="true" android:onClick="buttonClicked" android:backgroundTint="resourceId:0x1060000" />
+	<Button android:id="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="26dp" android:text="Save" android:layout_below="false" android:layout_centerHorizontal="true" android:onClick="buttonClicked" />
+</RelativeLayout>

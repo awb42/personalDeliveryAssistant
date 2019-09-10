@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="res/drawable/main_menu_hdpi.png" android:layout_width="-1" android:layout_height="-1">
+	<LinearLayout android:gravity="0x51" android:orientation="1" android:layout_width="-1" android:layout_height="0dp" android:layout_weight="{4:1065353216}">
+		<Button android:layout_gravity="0x11" android:id="false" android:background="res/drawable/button_bg.xml" android:layout_width="155dp" android:layout_height="60dp" android:layout_marginBottom="10dp" android:text="Delivery" />
+		<Button android:layout_gravity="0x11" android:id="false" android:background="res/drawable/button_bg.xml" android:layout_width="155dp" android:layout_height="60dp" android:layout_marginBottom="10dp" android:text="LOG" android:onClick="buttonClickFunction" />
+		<Button android:layout_gravity="0x11" android:id="false" android:background="res/drawable/button_bg.xml" android:layout_width="155dp" android:layout_height="60dp" android:layout_marginBottom="10dp" android:text="MAPS" android:onClick="launchMapsActivity" />
+		<RelativeLayout android:layout_width="-1" android:layout_height="-2">
+			<Button android:id="false" android:background="res/drawable/settings_button.png" android:layout_width="60dp" android:layout_height="60dp" android:layout_alignParentRight="true" android:onClick="launchSettingsActivity" />
+		</RelativeLayout>
+	</LinearLayout>
+</LinearLayout>
